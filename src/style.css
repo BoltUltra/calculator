@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  @apply bg-white text-black px-5 text-center font-bold text-lg hover:bg-black hover:text-white rounded-lg;
+}
